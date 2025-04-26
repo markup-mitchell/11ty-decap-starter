@@ -3,7 +3,7 @@ backend:
   name: git-gateway
   branch: master
   ### enable below lines for github integration ###
-  name: github
+  # name: github
   repo: markup-mitchell/starter-test
 media_folder: "src/static/img"
 public_folder: "/static/img"
@@ -13,7 +13,7 @@ local_backend: true
 # publish_mode: editorial_workflow
 collections:
   - label: "Note"
-    name: "note"
+    name: "note"  
     folder: "src/notes"
     create: true
     editor:
